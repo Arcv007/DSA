@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     int n,num1,num2,arm=0;
-    cout<<" enter the number to check weathe the number is a armstrong number or not"<<endl;
+    cout<<" enter the number to check  the number is a armstrong number or not"<<endl;
     cin>>n;
     num1=num2=n;
     int len = to_string(abs(num1)).length(); // here first we converted the NUM int into string then applied functin length()
