@@ -1,0 +1,34 @@
+Euclidean Algorithm
+
+Basic Idea:
+    let 'b' be smaller than 'a'
+        gcd(a,b)=gcd(a-b,b)
+    why?
+    Let 'g' be GCD of 'a' and 'b'
+        a=gx, b=gy and GCD (x,y)=1
+        (x-y)= g(x-y)
+
+eg. 
+Basic implementation
+
+int gcd (int a, int b)
+{
+    while(a!=b)
+    {
+        if(a>b)
+            a=a-b;
+        else    
+            b=b-a;
+    }
+    return a;
+}
+
+Optinized Implementation
+
+int gcd(int a, int b)
+{
+    if(b==0)
+        return a;
+    else
+        return gcd(b,a);
+}
