@@ -16,7 +16,7 @@ bool isprime(int n, int i)
 // to print the prime factors
 void primefact(int n)
 {
-    for(int i=2; i<n; i++)
+    for(int i=2; i<=n; i++)
     {
         if(isprime(i,2))        //to check wheather the number is prime or not
         {
