@@ -36,7 +36,7 @@ int count3(int n)
 int main()
 {
     int n;
-    cout<<"Enter the number: "<<endl;
+    cout<<"Enter  number: "<<endl;
     cin>>n;
     for (int i=0; i<3; i++)
     {
