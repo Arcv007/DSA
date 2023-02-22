@@ -20,4 +20,4 @@ eg.  3 in binary = 00..00011
                     0011
                     0110
                     ----
-                    1010  ==  2 in decimal */
+                    0101  ==  5 in decimal */
