@@ -1,13 +1,13 @@
-// this program shows the implementation of EX-OR (^) Operator
+// this program shows the implementation of Binary NOT (~) Operator
 #include<bits/stdc++.h>
 using namespace std; 
 
 int main()
 {
     int x;
-    cout<<"Enter the two numbers: ";
+    cout<<"Enter the a numbers: ";
     cin>>x;
-    cout<<"\nThe EX-OR operation of two numbers are : "<<(~x);
+    cout<<"\nThe NOT operation of a numbers are : "<<(~x);
     return 0;
 }
 
