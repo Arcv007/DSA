@@ -1,4 +1,4 @@
-// this program shows the implementation of Binary NOT (~) Operator
+
 #include<bits/stdc++.h>
 using namespace std; 
 
