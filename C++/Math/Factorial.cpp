@@ -3,12 +3,12 @@
 using namespace std; 
 
 // Recursive method to find factorial a number
-int factorial(int n, int digit)
+int factorial(int n)
 {
-    digit=digit*n;
+    
     if (n==1)
-        return digit;
-    factorial(n-1,digit);
+        return 1;
+    return n*factorial(n-1);
 }
 
 int main()
@@ -18,7 +18,7 @@ int main()
     {
         cout<<"\nEnter the number: ";
         cin>>num;
-        cout<<"The factorial of the number is "<<factorial(num,1); 
+        cout<<"The factorial of the number is "<<factorial(num); 
     } 
     return 0;
 }
