@@ -19,7 +19,7 @@ int main()
         {
             if(nums1[i]==nums2[j])
             {
-                    cout<<j<<endl;
+                    cout<<nums1[j]<<endl;
             }
         }
     }
